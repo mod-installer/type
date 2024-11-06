@@ -50,7 +50,19 @@ interface MI1_0_0 = {
 }
 interface MI1_0_1 extends MI1_0_0 {}
 interface MI1_0_2 extends MI1_0_1 {}
-interface MI1_1_0 extends MI1_0_2 {}
+interface MI1_1_0 extends MI1_0_2 {
+  remoteFileIdentifier?: {
+    domain: string;
+    id: number;
+  }[];
+  remoteFileFlags?: {
+    domain: string;
+    id: number;
+    flag: string;
+    minVersion?: string;
+    maxVersion?: string;
+  }[];
+}
 interface MI1_2_0 extends MI1_1_0 {}
 
 export MI1_0_0;
