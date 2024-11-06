@@ -63,7 +63,9 @@ interface MI1_1_0 extends MI1_0_2 {
     maxVersion?: string;
   }[];
 }
-interface MI1_2_0 extends MI1_1_0 {}
+interface MI1_2_0 extends MI1_1_0 {
+  languages?: string[];
+}
 
 export MI1_0_0;
 export MI1_0_1;
