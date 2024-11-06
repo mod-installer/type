@@ -1,4 +1,4 @@
-interface MI1_0_0 = {
+interface MI1_0_0 {
   schemaVersion: string;
   name: string;
   version: string;
