@@ -30,7 +30,7 @@ interface MI1_0_0 {
           setFlags?: string[];
         }
       }
-    }[]:
+    }[];
     readme?: string;
     requiredFlags?: string[];
     forbiddenFlags?: string[];
